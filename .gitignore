@@ -3,87 +3,28 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.so
-*.pyo
-*.pyd
-.Python
 
 # Packaging/build outputs
 build/
-develop-eggs/
 dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
 *.egg-info/
-.installed.cfg
 *.egg
-MANIFEST
 
-# Virtual environment folders
+# Virtual environments
 venv/
 .venv/
 env/
 .env/
-ENV/
-env.bak/
-venv.bak/
 
-# Tool & coverage directories
+# Testing and coverage
 .pytest_cache/
-.mypy_cache/
-.dmypy.json
-dmypy.json
 .coverage
-.coverage.*
 htmlcov/
-.tox/
-.nox/
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
 
-# IDE/editor configs
+# macOS
+.DS_Store
+._*
+
+# IDE
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
-.spyderproject
-.spyproject
-.ropeproject
-
-# OS-specific files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-Icon?
-*.lnk
-
-# Logs and temp files
-*.log
-*.tmp
-*.bak
-*.orig
-*.rej
-*.swp
-*.swo
-*.temp
-*.lock
-
-# Additional project-specific paths
-src/domainlookup.egg-info/
