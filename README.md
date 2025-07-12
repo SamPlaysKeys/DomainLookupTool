@@ -26,7 +26,7 @@ pip install python-whois requests
 
 ## Installation from source
 ```bash
-git clone https://github.com/YourOrg/DomainLookup
+git clone https://github.com/SamPlaysKeys/DomainLookupTool
 cd DomainLookup
 pip install .
 ```
