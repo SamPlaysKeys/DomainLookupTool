@@ -1,0 +1,2 @@
+[console_scripts]
+domain-lookup = domain_lookup.cli:main

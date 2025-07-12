@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "domainlookup"
+version = "0.1.0"
+description = "Interactive domain availability checker with WHOIS"
+readme = "README.md"
+authors = [{ name = "Sam Fleming", email = "info@samplayskeys.com" }]
+requires-python = ">=3.7"
+license = {text = "MIT"}
+dependencies = [
+    "python-whois>=0.9.5",
+    "ipwhois==1.2.0",
+    "requests>=2.28.0",
+]
+keywords = ["whois", "domain", "availability"]
+
+[project.urls]
+Homepage = "https://github.com/SamPlaysKeys/DomainLookupTool"
+Issues = "https://github.com/SamPlaysKeys/DomainLookupTool/issues"
+
+[project.scripts]
+domain-lookup = "domain_lookup.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"

@@ -24,12 +24,26 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install python-whois requests
 ```
 
+## Installation from source
+```bash
+git clone https://github.com/YourOrg/DomainLookup
+cd DomainLookup
+pip install .
+```
+
+## Usage
+```bash
+domain-lookup           # interactive checker
+python -m domain_lookup # alternative invocation
+```
+
 ## Usage Instructions
 
 1. Run the script using Python:
    ```bash
    python domain_lookup.py
    ```
+1a. If installed with pip, then run the script with "domain-lookup"
 
 2. When prompted, enter a domain name to check its availability (e.g., "example.com").
 
